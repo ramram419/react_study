@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+html,
+body {
+  background-color: #333;
+}
+
+#app {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.app-main {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-main > h1 {
+  width: 100%;
+}
+
+.clockBox {
+  height: 100%;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clockBox > div {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.date {
+  font-size: 2em;
+}
+
+.time {
+  font-size: 3em;
+}
+
+.fontChange {
+  color: white;
+  font-family: "Pacifico", sans-serif;
+  font-size: 1em;
+}
+
+.ms {
+  font-size: 0.5em;
+}
